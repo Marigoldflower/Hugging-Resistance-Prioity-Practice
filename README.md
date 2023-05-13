@@ -26,15 +26,25 @@ Content Compression Resistance Priority를 설정해줄 수 있다.
 Content Hugging Priority는 Horizontal과 Vertical의 크기가 각각 251로 설정이 되어있고 
 
 Content Compression Resistance Priority는 Horizontal과 Vertical의
+
 크기가 각각 750으로 설정이 되어있다. 이게 무슨 뜻일까?
+
 하나하나 예를 들어서 설명해보겠다. A라는 객체와 B라는 객체가 있다고 가정해보자.
+
 그리고 둘 다 "작은 크기의 객체"라고 가정하자.
+
 우선 A라는 객체의 top, leading, trailing을 20으로 잡고, 
+
 B라는 객체의 top, trailing을 20으로 잡겠다. 
+
 그러면 A가 View로부터 leading 영역이 20만큼 떨어져 있을 것이고,
+
 B가 A로부터 leading 영역이 20만큼 떨어져 있을 것이다. 
+
 이 상태라면 두 객체 모두 크기가 작으므로 "공간이 많이 남을 것 아닌가?"
+
 이런 상태에서
+
 	3-1) Content Hugging Priority: 공간이 많이 남을 때 사용
 			 : "공간이 많이 남을 때", 우선순위가 낮은 쪽의 "크기를 늘어나게 하는 것"
 		- A라는 객체를 클릭한 후 : 
