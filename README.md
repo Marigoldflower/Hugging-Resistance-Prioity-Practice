@@ -7,7 +7,7 @@
 Content Compression Resistance Priority를 설정해줄 수 있다. 
 
 2. Content Hugging Priority와 Content Compression Resistance Priority가 
-정확히 하는 일은 두 객체를 서로 비교하여 우선순위가 높고 낮음에 따라 변화를 주는 것을 의미한다.
+정확히 하는 일은 두 객체를 서로 비교하여 우선순위가 높고 낮음에 따라 변화를 주는 것이다.
 즉, Content Hugging Priority와 Content Compression Resistance Priority를 적용하려면
 "반드시 객체가 2개 이상 존재해야 한다."
 
