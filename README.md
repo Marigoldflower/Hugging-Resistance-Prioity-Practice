@@ -1,6 +1,6 @@
 # Hugging-Resistance-Prioity-Practice
 
-## Hugging-Resistance 작성할 때 주의할 점 2가지 
+## Hugging, Resistance Priority 사용할 때 간단히 기억해야 할 2가지 
 
 1. 우선 Content Hugging Priority와 Content Compression Resistance Priority가 생기려면 "먼저 오토레이아웃을 설정해줘야 한다는 것을 기억해야 한다." 오토레이아웃을 설정해준 후부터 Content Hugging Priority와 Content Compression Resistance Priority를 설정해줄 수 있다. 
 
