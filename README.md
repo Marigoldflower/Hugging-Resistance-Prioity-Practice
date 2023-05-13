@@ -15,10 +15,9 @@
 
 3. 그러면 A가 View로부터 leading 영역이 20만큼 떨어져 있을 것이고,B가 A로부터 leading 영역이 20만큼 떨어져 있겠지? 이 상태라면 두 객체 모두 크기가 작으므로 "공간이 많이 남을 것 아닌가?"이런 상태에서
 
-> Content Hugging Priority: 공간이 많이 남을 때 사용함
-> "공간이 많이 남을 때", 우선순위가 낮은 쪽의 "크기를 늘어나게 하는 것"
+> Content Hugging Priority: **"공간이 많이 남을 때"**, 우선순위가 낮은 쪽의 **"크기를 늘어나게 하는 것"**
 > - A라는 객체를 클릭한 후 : 
-> - - A의 Hugging Priority를 낮춰주면 우선순위가 더 높은 B가 크기를 유지하고 우선순위가 더 낮은 A의 크기가 늘어나게 된다.	
+> -> A의 Hugging Priority를 낮춰주면 우선순위가 더 높은 B가 크기를 유지하고 우선순위가 더 낮은 A의 크기가 늘어나게 된다.	
 
 그렇다면 반대로 A라는 객체와 B라는 객체 "모두 크기가 엄청 크다고 가정해보자."
 우선 A라는 객체의 top, leading, trailing을 20으로 잡고, 
@@ -27,10 +26,10 @@ B라는 객체의 top, trailing을 20으로 잡겠다.
 B가 A로부터 leading 영역이 20만큼 떨어져 있을 것이다.
 이 상태라면 두 객체 모두 크기가 너무 크므로 "공간이 많이 부족할 것 아닌가?"
 이런 상태에서 
-	3-2) Content Compression Resistance Priority: 공간이 부족할 때 사용
-			 : "공간이 많이 부족할 때", 우선순위가 낮은 쪽의 "크기를 줄이는 것"
-		- A라는 객체를 클릭한 후 :
-			-> A의 Compression Resistance Priority를 낮춰주면 
-				 우선순위가 더 높은 B가 크기를 유지하고 
-				 우선순위가 더 낮은 A의 크기가 줄어들게 된다.
+3-2) Content Compression Resistance Priority: 공간이 부족할 때 사용
+: "공간이 많이 부족할 때", 우선순위가 낮은 쪽의 "크기를 줄이는 것"
+- A라는 객체를 클릭한 후 :
+-> A의 Compression Resistance Priority를 낮춰주면 
+우선순위가 더 높은 B가 크기를 유지하고 
+우선순위가 더 낮은 A의 크기가 줄어들게 된다.
 
