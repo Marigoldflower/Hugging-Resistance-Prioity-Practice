@@ -1,15 +1,9 @@
 # Hugging-Resistance-Prioity-Practice
 
 
-1. 우선 Content Hugging Priority와 Content Compression Resistance Priority가 생기려면
+- 우선 Content Hugging Priority와 Content Compression Resistance Priority가 생기려면 "먼저 오토레이아웃을 설정해줘야 한다는 것을 기억해야 한다." 오토레이아웃을 설정해준 후부터 Content Hugging Priority와 Content Compression Resistance Priority를 설정해줄 수 있다. 
 
-"먼저 오토레이아웃을 설정해줘야 한다는 것을 기억해야 한다." 
-
-오토레이아웃을 설정해준 후부터 Content Hugging Priority와 
-
-Content Compression Resistance Priority를 설정해줄 수 있다. 
-
-
+-----------
 
 2. Content Hugging Priority와 Content Compression Resistance Priority가 
 
