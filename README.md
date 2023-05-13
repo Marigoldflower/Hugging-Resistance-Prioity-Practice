@@ -1,7 +1,7 @@
 # Hugging-Resistance-Prioity-Practice
 
 
-우선 Content Hugging Priority와 Content Compression Resistance Priority가 생기려면
+1. 우선 Content Hugging Priority와 Content Compression Resistance Priority가 생기려면
 
 "먼저 오토레이아웃을 설정해줘야 한다는 것을 기억해야 한다." 
 
@@ -11,7 +11,7 @@ Content Compression Resistance Priority를 설정해줄 수 있다.
 
 
 
-Content Hugging Priority와 Content Compression Resistance Priority가 
+2. Content Hugging Priority와 Content Compression Resistance Priority가 
 
 정확히 하는 일은 두 객체를 서로 비교하여 우선순위가 높고 낮음에 따라 변화를 주는 것이다.
 
@@ -21,7 +21,7 @@ Content Hugging Priority와 Content Compression Resistance Priority가
 
 
 
-Content Hugging Priority와 Content Compression Resistance Priority를 살펴보니
+3. Content Hugging Priority와 Content Compression Resistance Priority를 살펴보니
 
 Content Hugging Priority는 Horizontal과 Vertical의 크기가 각각 251로 설정이 되어있고 
 
