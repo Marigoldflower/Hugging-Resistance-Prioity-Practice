@@ -20,7 +20,7 @@
 
 > Content Hugging Priority: **"공간이 많이 남을 때"**, 우선순위가 낮은 쪽의 **"크기를 늘어나게 하는 것"**
 > - A라는 객체를 클릭한 후 : 
-> A의 Hugging Priority를 낮춰주면 우선순위가 더 높은 B가 크기를 유지하고 우선순위가 더 낮은 A의 크기가 늘어나게 된다.	
+> A의 Hugging Priority를 낮춰주면 우선순위가 더 높은 B가 **"크기를 유지하고"** 우선순위가 더 낮은 A의 **"크기가 늘어나게 된다."**
 
 
 ## Content Compression Resistance Priority 설명
